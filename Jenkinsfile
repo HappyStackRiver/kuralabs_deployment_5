@@ -32,8 +32,10 @@ pipeline {
      stage ('Image Build/Push') {
        agent {label 'Docker Agent'}
        steps {
+         sh '''#!/bin/bash
          docker build -t happybrick/url-shortener "https://raw.githubusercontent.com/HappyStackRiver/DockerFiles/main/url-shortner/Dockerfile" 
          docker push happybrick/url-shortener
+         '''
        }
      }
     
