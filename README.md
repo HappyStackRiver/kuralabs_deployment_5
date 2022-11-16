@@ -33,6 +33,10 @@ This deployment was to practice the process of deploying a flask app onto a clus
     - Using the Terraform EC2 and initialize, plan, and apply the infrastructure using ECS
 ## Tips for Future Me
 This deployment has a few moving parts, involving 3 different EC2s to each host a different tool for the deployment. The jenkins file was fun to make, as it was good practice. The deployment did not need to have that many EC2s to host the services we needed. The only reason we did the deployment this way, was to ensure we were not charged for the processing power potentially necessary to run all of the necessary tools. 
+
+![Deployment5](https://user-images.githubusercontent.com/107671669/202108565-7dfd34b3-63bd-441f-8b44-66eb9ed18f6a.jpg)
+![Deployment 5 Success](https://user-images.githubusercontent.com/107671669/202108607-69c39c86-6c33-4e47-a1a2-f15128ae9b00.png)
+
  
 ## Deployment Document Link:
 - Link to instructions: https://github.com/kura-labs-org/kuralabs_deployment_5/blob/main/Deployment-5_Assignment.pdf
